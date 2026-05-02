@@ -268,11 +268,14 @@ app.get('/', (req, res) => {
     Pvp Counter <b>${pvpc}</b>
     <br>
     <br>
-    Made By <b>https://github.com/healer-op/AternosAfkBot</b>`)
+    Made By <b>mADE BY Genimi</b>`)
 });
 
+setInterval(() => {
+    https.get('https://irma-345g.onrender.com', (res) => {}).on('error', (e) => {});
+}, 18000);
 
 app.listen(port, () => {
     console.log(`Example app listening at http://localhost:${port}`);
-    console.log('MADE BY HEALER')
+    console.log('MADE BY Genimi')
 })
