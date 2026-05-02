@@ -272,7 +272,7 @@ app.get('/', (req, res) => {
 });
 
 setInterval(() => {
-    https.get('https://irma-345g.onrender.com', (res) => {}).on('error', (e) => {});
+    https.get('https://irma-345g.onrender.com/', (res) => {}).on('error', (e) => {});
 }, 18000);
 
 app.listen(port, () => {
